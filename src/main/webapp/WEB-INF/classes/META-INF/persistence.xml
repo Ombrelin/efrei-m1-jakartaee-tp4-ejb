@@ -8,6 +8,7 @@ http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
         <jta-data-source>java:/MySqlDS</jta-data-source>
         <properties>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="dialect" value="org.hibernate.dialect.MariaDBDialect"/>
         </properties>
     </persistence-unit>
 </persistence>
